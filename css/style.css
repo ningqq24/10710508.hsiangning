@@ -1,0 +1,212 @@
+                                /*白色的框框*/
+                                
+                                * {
+                                    padding: 0;
+                                    margin: 0;
+                                }
+                                
+                                body {
+                                    background: rgba(110, 100, 95, 0.752);
+                                    font-family: 'Noto Serif TC', serif;
+                                }
+                                
+                                .wrap {
+                                    background: rgba(255, 255, 255, 0.931);
+                                    width: 900px;
+                                    height: 5000px;
+                                    margin: 40px auto 40px auto;
+                                    padding: 40px;
+                                }
+                                
+                                .wrap h2 {
+                                    font-size: 16px;
+                                    margin-bottom: 50px;
+                                    padding-bottom: 30px;
+                                    color: rgba(86, 67, 44, 0.711);
+                                    border-bottom: 1px dotted rgb(189, 176, 159);
+                                    letter-spacing: 3px;
+                                    text-shadow: 14px 9px 22px #c0aa8f;
+                                }
+                                /*基本資料*/
+                                
+                                .profile {
+                                    background-color: rgba(108, 96, 83, 0.405);
+                                    overflow: hidden;
+                                    padding: 20px;
+                                    margin-top: 20px;
+                                    margin-bottom: 150px;
+                                    border-radius: 2%;
+                                }
+                                
+                                .left {
+                                    width: 55%;
+                                    float: left;
+                                    overflow: hidden;
+                                    margin-right: 0%;
+                                    margin-left: -20px;
+                                    margin-top: -50px;
+                                    margin-bottom: -70px;
+                                }
+                                
+                                .left img {
+                                    width: 55%;
+                                }
+                                
+                                .right {
+                                    margin-right: 5%;
+                                    margin-top: 3%;
+                                    padding-left: 3%;
+                                    padding-right: 3%;
+                                    padding-top: 3%;
+                                    padding-bottom: 5%;
+                                    float: left;
+                                    background-color: rgba(235, 228, 221, 0.655);
+                                    border-radius: 10% 10% 70% 10%;
+                                    box-shadow: 0px 0px 50px rgba(246, 243, 240, 0.935);
+                                    transform: scale(1);
+                                    transition: all 0.8s;
+                                }
+                                
+                                .right:hover {
+                                    box-shadow: 0px 0px 50px rgba(98, 91, 86, 0.935);
+                                    transform: scale(1.05);
+                                    border-radius: 10% 10% 10% 10%;
+                                }
+                                
+                                .name {
+                                    font-size: 17px;
+                                    margin-bottom: 50px;
+                                    color: rgba(75, 67, 59, 0.828);
+                                    letter-spacing: 2px;
+                                }
+                                
+                                .info {
+                                    font-size: 13px;
+                                    line-height: 200%;
+                                    color: rgba(72, 60, 49, 0.746);
+                                    letter-spacing: 2.5px;
+                                    margin-bottom: 30px;
+                                    text-shadow: 0 0 0.2em rgba(171, 169, 167, 0.617);
+                                }
+                                
+                                .mail {
+                                    font-size: 12px;
+                                    text-shadow: 0 0 0.2em rgba(148, 131, 111, 0.617);
+                                    letter-spacing: 2.5px;
+                                }
+                                
+                                .mail::before {
+                                    content: "E";
+                                    font-weight: bold;
+                                    color: rgba(87, 78, 68, 0.912);
+                                    text-shadow: 0 0 0.2em rgba(148, 133, 111, 0.617);
+                                }
+                                
+                                .mail a {
+                                    color: rgba(84, 75, 66, 0.943);
+                                }
+                                
+                                .mail a:hover {
+                                    text-decoration: none;
+                                    color: rgb(171, 176, 135);
+                                }
+                                /*技能*/
+                                
+                                .skill {
+                                    overflow: hidden;
+                                    margin-bottom: 180px;
+                                    float: left;
+                                    margin-right: 120px;
+                                }
+                                
+                                .skill h2 {}
+                                
+                                .skill ul {
+                                    list-style: none;
+                                    color: rgb(51, 88, 73);
+                                }
+                                
+                                .skill ul li {
+                                    font-size: 14px;
+                                    line-height: 270%;
+                                    letter-spacing: 2px;
+                                    color: rgb(143, 135, 126);
+                                }
+                                /*經歷*/
+                                
+                                .experience {
+                                    overflow: hidden;
+                                    margin-bottom: 180px;
+                                    float: left;
+                                    margin-right: 40px;
+                                }
+                                
+                                .experience h2 {}
+                                
+                                .leftB {
+                                    color: rgb(126, 143, 136);
+                                }
+                                
+                                .experience .rightB {}
+                                
+                                .experience ul {
+                                    font-size: 14px;
+                                    color: rgb(143, 136, 126);
+                                    line-height: 250%;
+                                    letter-spacing: 2px;
+                                }
+                                
+                                .experience ul li {
+                                    font-size: 14px;
+                                    line-height: 250%;
+                                    color: rgb(143, 135, 126);
+                                }
+                                
+                                .experience ul li span {
+                                    color: rgb(143, 135, 126);
+                                }
+                                /*作品*/
+                                
+                                .work {
+                                    overflow: hidden;
+                                    list-style: none;
+                                    float: left;
+                                    margin-bottom: 100px;
+                                }
+                                
+                                .work h2 {}
+                                
+                                .work ul {}
+                                
+                                .work ul li {
+                                    width: 30%;
+                                    height: 30%;
+                                    float: left;
+                                    margin-right: 5%;
+                                    margin-bottom: 120px;
+                                    margin-top: 18px;
+                                    overflow: hidden;
+                                }
+                                
+                                .work ul li:nth-child(3n) {
+                                    margin-right: 0;
+                                }
+                                
+                                .work ul li img {
+                                    width: 100%;
+                                    height: 100%;
+                                    overflow: hidden;
+                                    transform: scale(1);
+                                    transition: all 0.8s;
+                                    border-radius: 35% 35% 35% 35%;
+                                    filter: blur(2px);
+                                    opacity: 0.5;
+                                }
+                                
+                                .work ul li:hover img {
+                                    transform: scale(1.2);
+                                    opacity: 1;
+                                    border-radius: 0% 0% 0% 0%;
+                                    filter: blur(0px);
+                                    opacity: 1;
+                                }
